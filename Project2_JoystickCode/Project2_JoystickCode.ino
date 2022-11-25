@@ -86,7 +86,7 @@ void loop() {
       motorSpeedB = 0;
     }
   }
-  // Prevent buzzing at low speeds (Adjust according to your motors. My motors couldn't start moving if PWM value was below value of 70)
+  // Prevent buzzing at low speeds
   if (motorSpeedA < 70) {
     motorSpeedA = 0;
   }
